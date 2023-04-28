@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav">
+        
+        
+    </div>
+
+    
+    <div class="_form">
+        <form>
+            <h3 style="text-align: center;">Regester</h3>
+            <input type="text" id="_text" placeholder="Enter Your Full Name" onkeyup="_valText()">
+            <br>
+           <div id="_d1"></div>
+            <input type="email" id="_email" placeholder="Enter your Email" onkeyup="_Email()">
+            <br>
+            <div id="_d2"></div>
+            <input type="text" id="_phone" placeholder="Enter Numper Phone" onkeyup="_phoneVal()">
+            <br>
+            <div id="_d3"></div>
+            
+        </form>
+       
+        <button onclick="validateInput()">Contact Us</button>
+        <div id="test"></div>
+    </div>
+
+
+
+    <div id="footer">
+        <ul>
+            <li><i class="fa-solid fa-mobile-screen"></i><a href="tel:01091041238">Mobile</a></li>
+            <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/+201091041238?text=hi i wouuld Make An Order." target="_blank">Whatsapp</a></li>
+            <li><i class="fa-sharp fa-solid fa-location-dot"></i><a onclick="getLoc()">Location</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="index3.html">About Us</a></li>
+        </ul>
+       </div> 
+    <script src="main3.js"></script>    
+</body>
+</html>

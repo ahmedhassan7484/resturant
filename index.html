@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body >
+    <!--start nave bar in first file-->
+    <div id="nav">
+        <i class="fa-sharp fa-solid fa-cart-shopping" style="color: aliceblue;margin-top: 5px; font-size: 25px;"></i>
+         <h1 id="hyp" style="color: aliceblue; margin: 0px;"></h1>
+    </div>    
+     <!--end nave bar in first file-->
+     <!--start slide bar in first file-->
+     
+    <div id="slid">
+       <img src="./img/1.jpg" class="imges" >
+       <img src="./img/2.jpg" class="imges" hidden>
+       <img src="./img/3.jpg" class="imges" hidden>
+       <img src="./img/4.jpg" class="imges" hidden>
+       <img src="./img/5.jpg" class="imges" hidden>
+       <img src="./img/11.jpg" class="imges" hidden>
+       <img src="./img/12.jpg" class="imges" hidden>
+       <img src="./img/13.jpg" class="imges" hidden>
+       <img src="./img/14.jpg" class="imges" hidden>
+       <img src="./img/15.jpg" class="imges" hidden>
+       <img src="./img/16.jpg" class="imges" hidden>
+       <img src="./img/17.jpg" class="imges" hidden>
+       <img src="./img/18.jpg" class="imges" hidden>
+       <h3 style="text-align: center;">Fast Food</h3>
+       <p class="xxx" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptates tempora et, amet possimus pariatur quisquam accusantium numquam excepturi repellendus quod sit maiores officia, illo mollitia eum nemo ducimus fugiat.</p>
+
+    </div>      
+     <!--end slide bar in first file-->
+     <!--start about in first file-->
+     <div id="cont">
+    <div id="abo">
+       
+        
+        <div id="para">
+            <img src="./img/6.jpg" id="photo">
+        <p id="para1"></p>
+        </div>
+    </div>
+    
+     <!--end about in first file-->
+     <!--start Category in first file-->
+    
+        
+    <div id="catTop">
+        
+    <div class="cat" >
+        
+        <h2 class="_h2" style="color: blue;" >see food</h2><br>
+        <img id="img2" src="./img/ga1.jpg"><br>
+        <button id="btn" onclick="show1()"><i class="fa-regular fa-eye"></i>Show Details</button>
+
+    </div>
+    <div class="cat" hidden>
+        
+        <h2 class="_h2" style="color: blue;">Fish</h2><br>
+        <img id="img2" src="./img/pexels-bronze-digitals-5739585.jpg"><br>
+        <button id="btn"onclick="show2()"><i class="fa-regular fa-eye"></i>Show Details</button>
+
+    </div>
+    <div class="cat" hidden>
+        
+        <h2 class="_h2" style="color: blue;">Chicken</h2><br>
+        <img id="img2" src="./img/ch1.jpg"><br>
+        <button id="btn" onclick="show3()" ><i class="fa-regular fa-eye" ></i>Show Details</button>
+
+    </div>
+    <div class="cat" hidden>
+        
+        <h2 class="_h2" style="color: blue;">Meat</h2><br>
+        <img id="img2" src="./img/10.jpg"><br>
+        <button id="btn" onclick="show4()"><i class="fa-regular fa-eye" ></i>Show Details</button>
+
+    </div>
+    <div class="cat" hidden>
+        
+        <h2 class="_h2" style="color: blue;">Juice</h2><br>
+        <img id="img2" src="./img/14.jpg"><br>
+        <button id="btn" onclick="show5()"><i class="fa-regular fa-eye" ></i>Show Details</button>
+
+    </div>
+    <div class="tbtn">
+    <button id="next"  onclick="right()"><i class="fa-solid fa-right-long" style="font-size: 30px;"></i></button>
+    <button id="brev" hidden onclick="left()"  ><i class="fa-solid fa-left-long" style="font-size: 30px;"></i></button>
+    </div>
+    </div>
+    </div>
+     <!--end Category in first file-->
+     <!--star product in first file-->
+    <div id="prod">
+      <table class="product" style="display: none;">
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>photo</td>
+                <td>price</td>
+            </tr>
+            <tr>
+                <td>Shrimp</td>
+                <td><img style="width:150px; height:150px" src="./img/ga2.jpg"></td>
+                <td>250$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+            <tr>
+                <td>Crab</td>
+                <td><img style="width:150px; height:150px" src="./img/ga3.jpg"></td>
+                <td>200$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+        </thead>
+      </table>
+      <table class="product" style="display: none;">
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>photo</td>
+                <td>price</td>
+            </tr>
+            <tr>
+                <td>Sinjari fish</td>
+                <td><img style="width:150px; height:150px" src="./img/f2.jpg"></td>
+                <td>100$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+            <tr>
+                <td>Tilapia fish</td>
+                <td><img style="width:150px; height:150px" src="./img/pexels-piriyonel-5950514.jpg"></td>
+                <td>150$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+            <tr>
+                <td>color fish</td>
+                <td><img style="width:150px; height:150px" src="./img/pexels-bronze-digitals-5739585.jpg"></td>
+                <td>150$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+        </thead>
+      </table >
+      <table class="product" style="display: none;">
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>photo</td>
+                <td>price</td>
+            </tr>
+            <tr>
+                <td>weldone Chicken</td>
+                <td><img style="width:150px; height:150px" src="./img/ch2.jpg"></td>
+                <td>100$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+            <tr>
+                <td>midume Chicken</td>
+                <td><img style="width:150px; height:150px" src="./img/ch3.jpg"></td>
+                <td>100$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+        </thead>
+      </table>
+      <table class="product" style="display: none;">
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>photo</td>
+                <td>price</td>
+            </tr>
+            <tr>
+                <td>weldone meat</td>
+                <td><img style="width:150px; height:150px" src="./img/1.jpg"></td>
+                <td>100$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+            <tr>
+                <td>midum meat</td>
+                <td><img style="width:150px; height:150px" src="./img/9.jpg"></td>
+                <td>100$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+        </thead>
+      </table>
+      <table class="product" style="display: none;">
+        <thead>
+            <tr>
+                <td>name</td>
+                <td>photo</td>
+                <td>price</td>
+            </tr>
+            <tr>
+                <td>Fresh Juice</td>
+                <td><img style="width:150px; height:150px" src="./img/11.jpg"></td>
+                <td>10$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+            <tr>
+                <td>Orange Juice</td>
+                <td><img style="width:150px; height:150px" src="./img/12.jpg"></td>
+                <td>100$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+            <tr>
+                <td>Mango Juice</td>
+                <td><img style="width:150px; height:150px" src="./img/13.jpg"></td>
+                <td>100$</td>
+                <td><button onclick='addToCart()'>add to cart</button></td>
+            </tr>
+        </thead>
+      </table>
+     
+      
+
+    </div>
+    <a href="#hyp"><button class="_top">Top Page</button></a>
+
+     <!--end product in first file-->
+     <div id="footer">
+    <ul>
+        <li><i class="fa-solid fa-mobile-screen"></i><a href="tel:01091041238">Mobile</a></li>
+        <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/+201091041238?text=hi i wouuld Make An Order." target="_blank">Whatsapp</a></li>
+        <li><i class="fa-sharp fa-solid fa-location-dot"></i><a onclick="getLoc()">Location</a></li>
+        <li><i class="fa-regular fa-address-card"></i><a href="index3.html">About Us</a></li>
+    </ul>
+   </div> 
+    <script src="main.js"></script>
+</body>
+</html>
